@@ -9,11 +9,11 @@
    + 非本网卡需要注意以下几点
      + wifi驱动
        + 移除在 `kext` 下的` AirportBrcmFixup.kext ` 的驱动
-       + 移除在 `config.plist'` 下 `kernel` 中的
+       + 移除在 `config.plist'` 下 `kernel` 中的 `AirportBrcmFixup.kext` 驱动补丁
      + 蓝牙驱动：
-       + 移除在 `kext` 下的``, 的驱动
-       + 移除在 `config.plist'` 下 `kernel` 中的 
-4. 补充在 `config.plist` 文件中的  xx, xx , xx
-
-
-
+       + 移除在 `kext` 下的`BrcmBluetoothInjector.kext`, `BrcmFirmwareData.kext` , `BrcmPatchRAM3.kext` 的驱动
+       + 移除在 `config.plist'` 下 `kernel` 中的 `BrcmBluetoothInjector.kext`, `BrcmFirmwareData.kext` , `BrcmPatchRAM3.kext` 驱动补丁
+4. 补充三码：
+   1. 在`config.plist` 下的 `PlatformInfo` -- `Generic` ：
+      + 注入 `MLB` ,  `ROM`  , `SystemSerialNumber` , `SystemUUID`
+      + 可以从 `Hackintool`下的序列号生成器获取，在苹果官网查看序列号是否有人使用（使用未查询到的序列号）
