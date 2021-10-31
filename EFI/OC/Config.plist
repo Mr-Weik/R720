@@ -110,6 +110,14 @@
 				<key>Path</key>
 				<string>SSDT-DeepIdle.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-ALS0.aml</string>
+			</dict>
 		</array>
 		<key>Delete</key>
 		<array/>
@@ -1305,13 +1313,14 @@
 			<key>AdviseFeatures</key>
 			<false/>
 			<key>MLB</key>
-			<string></string>
+			<string>C027203004NJ1JHA8</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
 			<data>
+			3Afhw8q4
 			</data>
 			<key>SpoofVendor</key>
 			<true/>
@@ -1320,9 +1329,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro14,1</string>
 			<key>SystemSerialNumber</key>
-			<string></string>
+			<string>C02TQAYUHTD5</string>
 			<key>SystemUUID</key>
-			<string></string>
+			<string>34B00DF9-3434-5A79-B6FF-4F7A18DC932C</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
