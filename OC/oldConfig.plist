@@ -833,8 +833,6 @@
                     <string></string>
                     <key>MinKernel</key>
                     <string></string>
-                    <key>Strategy</key>
-                    <string>Disable</string>
                 </dict>
             </array>
             <key>Emulate</key>
@@ -1066,8 +1064,6 @@
                 <false/>
                 <key>AppleXcpmForceBoost</key>
                 <false/>
-                <key>CustomPciSerialDevice</key>
-                <false/>
                 <key>CustomSMBIOSGuid</key>
                 <false/>
                 <key>DisableIoMapper</key>
@@ -1080,8 +1076,6 @@
                 <false/>
                 <key>ExternalDiskIcons</key>
                 <true/>
-                <key>ForceAquantiaEthernet</key>
-                <false/>
                 <key>ForceSecureBootScheme</key>
                 <false/>
                 <key>IncreasePciBarSize</key>
@@ -1146,7 +1140,7 @@
                 <key>TakeoffDelay</key>
                 <integer>0</integer>
                 <key>Timeout</key>
-                <integer>30</integer>
+                <integer>5</integer>
             </dict>
             <key>Debug</key>
             <dict>
@@ -1160,8 +1154,8 @@
                 <integer>0</integer>
                 <key>DisplayLevel</key>
                 <integer>2147483650</integer>
-                <key>LogModules</key>
-                <string></string>
+                <key>SerialInit</key>
+                <false/>
                 <key>SysReport</key>
                 <false/>
                 <key>Target</key>
@@ -1190,8 +1184,12 @@
             </array>
             <key>Security</key>
             <dict>
+                <key>AllowNvramReset</key>
+                <true/>
                 <key>AllowSetDefault</key>
                 <true/>
+                <key>AllowToggleSip</key>
+                <false/>
                 <key>ApECID</key>
                 <integer>0</integer>
                 <key>AuthRestart</key>
@@ -1216,40 +1214,6 @@
                 <string>Disabled</string>
                 <key>Vault</key>
                 <string>Optional</string>
-            </dict>
-            <key>Serial</key>
-            <dict>
-                <key>Custom</key>
-                <dict>
-                    <key>BaudRate</key>
-                    <integer>115200</integer>
-                    <key>ClockRate</key>
-                    <integer>1843200</integer>
-                    <key>DetectCable</key>
-                    <false/>
-                    <key>ExtendedTxFifoSize</key>
-                    <integer>64</integer>
-                    <key>FifoControl</key>
-                    <integer>7</integer>
-                    <key>LineControl</key>
-                    <integer>3</integer>
-                    <key>PciDeviceInfo</key>
-                    <data>/w==</data>
-                    <key>RegisterAccessWidth</key>
-                    <integer>8</integer>
-                    <key>RegisterBase</key>
-                    <integer>1016</integer>
-                    <key>RegisterStride</key>
-                    <integer>1</integer>
-                    <key>UseHardwareFlowControl</key>
-                    <false/>
-                    <key>UseMmio</key>
-                    <false/>
-                </dict>
-                <key>Init</key>
-                <false/>
-                <key>Override</key>
-                <false/>
             </dict>
             <key>Tools</key>
             <array>
@@ -1383,6 +1347,8 @@
                     <string>boot-args</string>
                 </array>
             </dict>
+            <key>LegacyEnable</key>
+            <false/>
             <key>LegacyOverwrite</key>
             <false/>
             <key>LegacySchema</key>
@@ -1532,8 +1498,6 @@
                     <string></string>
                     <key>Enabled</key>
                     <true/>
-                    <key>LoadEarly</key>
-                    <false/>
                     <key>Path</key>
                     <string>HfsPlus.efi</string>
                 </dict>
@@ -1544,8 +1508,6 @@
                     <string></string>
                     <key>Enabled</key>
                     <true/>
-                    <key>LoadEarly</key>
-                    <false/>
                     <key>Path</key>
                     <string>OpenRuntime.efi</string>
                 </dict>
@@ -1556,8 +1518,6 @@
                     <string></string>
                     <key>Enabled</key>
                     <true/>
-                    <key>LoadEarly</key>
-                    <false/>
                     <key>Path</key>
                     <string>OpenCanopy.efi</string>
                 </dict>
@@ -1568,8 +1528,6 @@
                     <string></string>
                     <key>Enabled</key>
                     <true/>
-                    <key>LoadEarly</key>
-                    <false/>
                     <key>Path</key>
                     <string>AudioDxe.efi</string>
                 </dict>
