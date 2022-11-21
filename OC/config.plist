@@ -445,7 +445,7 @@
                     <key>BundlePath</key>
                     <string>Lilu.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.0</string>
+                    <string>V1.6.2</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -463,7 +463,7 @@
                     <key>BundlePath</key>
                     <string>VirtualSMC.kext</string>
                     <key>Comment</key>
-                    <string>V1.2.9 | SMC</string>
+                    <string>V1.3.0 | SMC</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -481,7 +481,7 @@
                     <key>BundlePath</key>
                     <string>WhateverGreen.kext</string>
                     <key>Comment</key>
-                    <string>V1.5.9</string>
+                    <string>V1.6.1</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -499,7 +499,7 @@
                     <key>BundlePath</key>
                     <string>SMCBatteryManager.kext</string>
                     <key>Comment</key>
-                    <string>V1.2.9 | SMC</string>
+                    <string>V1.3.0 | SMC</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -517,7 +517,7 @@
                     <key>BundlePath</key>
                     <string>SMCProcessor.kext</string>
                     <key>Comment</key>
-                    <string>V1.2.9 | SMC</string>
+                    <string>V1.3.0 | SMC</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -535,7 +535,7 @@
                     <key>BundlePath</key>
                     <string>SMCSuperIO.kext</string>
                     <key>Comment</key>
-                    <string>V1.2.9 | SMC</string>
+                    <string>V1.3.0 | SMC</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -553,7 +553,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.7.2 | Sound</string>
+                    <string>V1.7.6 | Sound</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -589,9 +589,9 @@
                     <key>BundlePath</key>
                     <string>AirportBrcmFixup.kext</string>
                     <key>Comment</key>
-                    <string>V2.1.5</string>
+                    <string>V2.1.6</string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/AirportBrcmFixup</string>
                     <key>MaxKernel</key>
@@ -609,7 +609,7 @@
                     <key>Comment</key>
                     <string>V1.0</string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>ExecutablePath</key>
                     <string></string>
                     <key>MaxKernel</key>
@@ -627,7 +627,7 @@
                     <key>Comment</key>
                     <string>V2.6.1</string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>ExecutablePath</key>
                     <string></string>
                     <key>MaxKernel</key>
@@ -645,7 +645,7 @@
                     <key>Comment</key>
                     <string>V2.6.1</string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/BrcmFirmwareData</string>
                     <key>MaxKernel</key>
@@ -663,7 +663,7 @@
                     <key>Comment</key>
                     <string>V2.6.1</string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/BrcmPatchRAM3</string>
                     <key>MaxKernel</key>
@@ -679,7 +679,7 @@
                     <key>BundlePath</key>
                     <string>VoodooPS2Controller.kext</string>
                     <key>Comment</key>
-                    <string>V2.2.8</string>
+                    <string>V2.3.1</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -697,7 +697,7 @@
                     <key>BundlePath</key>
                     <string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext</string>
                     <key>Comment</key>
-                    <string>V2.2.8</string>
+                    <string>V2.3.1</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -715,7 +715,7 @@
                     <key>BundlePath</key>
                     <string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext</string>
                     <key>Comment</key>
-                    <string>V2.2.8</string>
+                    <string>V2.3.1</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -733,7 +733,7 @@
                     <key>BundlePath</key>
                     <string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext</string>
                     <key>Comment</key>
-                    <string>V2.2.8</string>
+                    <string>V2.3.1</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -805,7 +805,7 @@
                     <key>BundlePath</key>
                     <string>CpuTscSync.kext</string>
                     <key>Comment</key>
-                    <string>V1.0.8</string>
+                    <string>V1.0.9</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1146,7 +1146,7 @@
                 <key>TakeoffDelay</key>
                 <integer>0</integer>
                 <key>Timeout</key>
-                <integer>30</integer>
+                <integer>5</integer>
             </dict>
             <key>Debug</key>
             <dict>
@@ -1264,6 +1264,8 @@
                     <false/>
                     <key>Flavour</key>
                     <string>Auto</string>
+                    <key>FullNvramAccess</key>
+                    <false/>
                     <key>Name</key>
                     <string>UEFI Shell</string>
                     <key>Path</key>
@@ -1284,6 +1286,8 @@
                     <false/>
                     <key>Flavour</key>
                     <string>Auto</string>
+                    <key>FullNvramAccess</key>
+                    <false/>
                     <key>Name</key>
                     <string>memcheck</string>
                     <key>Path</key>
@@ -1304,6 +1308,8 @@
                     <false/>
                     <key>Flavour</key>
                     <string>Auto</string>
+                    <key>FullNvramAccess</key>
+                    <false/>
                     <key>Name</key>
                     <string>Shutdown</string>
                     <key>Path</key>
@@ -1324,6 +1330,8 @@
                     <false/>
                     <key>Flavour</key>
                     <string>Auto</string>
+                    <key>FullNvramAccess</key>
+                    <false/>
                     <key>Name</key>
                     <string>VerifyMsrE2</string>
                     <key>Path</key>
@@ -1427,7 +1435,7 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>C02814500QXHRPC1M</string>
+                <string>C027203004NJ1JHA8</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
@@ -1441,9 +1449,9 @@
                 <key>SystemProductName</key>
                 <string>MacBookPro14,2</string>
                 <key>SystemSerialNumber</key>
-                <string>C02WJYY8HV2N</string>
+                <string>C02TQAYUHTD5</string>
                 <key>SystemUUID</key>
-                <string>C3CD6BAA-BAE1-4A03-9F97-DD8A3CAED280</string>
+                <string>A1C63BBE-C95D-4833-BBE8-FB1BFED93E2B</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
@@ -1485,6 +1493,12 @@
                 <integer>50</integer>
                 <key>KeySubsequentDelay</key>
                 <integer>5</integer>
+                <key>PointerDwellClickTimeout</key>
+                <integer>0</integer>
+                <key>PointerDwellDoubleClickTimeout</key>
+                <integer>0</integer>
+                <key>PointerDwellRadius</key>
+                <integer>0</integer>
                 <key>PointerPollMask</key>
                 <integer>-1</integer>
                 <key>PointerPollMax</key>
